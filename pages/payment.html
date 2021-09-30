@@ -1,0 +1,74 @@
+<!-- 
+COMMENTS
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcher</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="shortcut icon" href="../images/header icon.ico"/>
+</head>
+  
+    <body> 
+        <header>
+            <p class="enter-exit-botton"><a href="../about.html">Sign out</a></p>
+
+            <h1>Matcher</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="../about.html">About</a></li>  
+                    <li><a href="signin.html">Account</a></li>
+                    <li><a href="find.html">Users</a></li> <!--no links here because sign in or login is necassary-->
+                    <li><a href="chat.html">Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+  
+        <h2>Payment</h2>
+
+        <section class="fillbox">
+
+            <p>Card option</p>
+
+            <article class="label">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required
+                       minlength="1" maxlength="15" size="20"> <br>
+
+                <label for="card">Card Number</label>
+                <input type="text" id="card" name="card" required
+                        minlength="10" maxlength="20" size="20"> <br>
+                
+                <label for="exipry">Expiry Date</label>
+                <input type="text" id="expiry" name="expiry" required
+                        minlength="6" maxlength="10" size="20"> <br>
+
+                <label for="ccv">CCV</label>
+                <input type="text" id="ccv" name="ccv" required
+                        minlength="6" maxlength="10" size="20"> 
+            </article>
+
+        </section>
+
+
+        <div id="paybotton">
+            <img src="../images/heart.svg" alt="pixel heart 1">
+            <p class="donebotton"><a href="account.html">Pay</a></p>
+            <img src="../images/heart.svg" alt="pixel heart 2">
+        </div> 
+
+        <hr>
+  
+        <footer>
+            <p><small>&copy;2021 Matcher.com</small></p>
+        </footer>
+    </body>
+  
+  </html>

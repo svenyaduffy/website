@@ -1,0 +1,53 @@
+/* payment */
+#gotopay {
+    text-decoration: underline;
+}
+
+.donebotton {
+    background-color: #FFF9E3;
+    padding: 10px 25px;
+    width: 120px;
+    /* margin: 5% 43%; */
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+/* finishes here */
+
+
+img {
+    width: 5%;
+    max-width: 110px;
+    min-width: 35px;
+    margin: 10px 25px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/* info boxes */
+.fillbox {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 5% 15%;
+}
+
+.switchmake {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+input {
+    background-color: #FFF9E3;
+    border: none;
+    margin: 30px;
+    border: 3px solid #FFF9E3;
+    border-radius: 15px;
+    min-width: 85px;
+    max-width: 200px;
+    font-size: 16px;
+}
+
+#paybotton {
+    display: inline-flex;
+    justify-content: center;
+}

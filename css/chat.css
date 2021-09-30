@@ -1,0 +1,98 @@
+/* chat box and messages */
+#chatbox {
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 2% 10%;
+    padding: 10px;
+}
+
+.userM {
+    color: black;
+    background-color: #FFF9E3;
+    border-radius: 15px;
+    min-width: 150px;
+    height: 40px;
+    /* margin: 5% 3%; */
+    text-align: left;
+    padding: 8px;
+    justify-content: left;
+    margin: 0 30% 3% 0;
+}
+
+#guestM {
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* width: 130px; */
+    height: 40px;
+    min-width: 130px;
+    text-align: right;
+    padding: 8px;
+    margin: 0 0 3% 30%;
+}
+/* finishes here */
+
+/* users names and arrows*/
+.names{
+    display: inline;
+    margin: 2.5%;
+    padding: 10px 0 0 0;
+    /* width: 100px; */
+
+}
+
+.names:hover {
+    font-weight: bold;
+}
+
+
+img {
+    width: 5%;
+    max-width: 110px;
+    min-width: 35px;
+    margin: 15px 20px;
+    display: inline-block;
+}
+
+#middlename {
+    font-weight: bold;
+}
+
+#namesarrows {
+display: inline-flex;
+    justify-content: center;
+}
+/* finishes here */
+
+/* writing message */
+.container {
+    display: inline-flex;
+}
+
+.message {
+    display: inline-block;
+}
+
+.send {
+    display: inline-block;
+}
+
+.donebotton {
+    border-radius: 10px;
+    background-color: #FFF9E3;
+    display: inline;
+    padding: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 80%;
+    min-width: 85px;
+    max-width: 500px;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+/* finishes here */
+

@@ -1,0 +1,43 @@
+img {
+    width: 5%;
+    max-width: 110px;
+    min-width: 35px;
+    margin: 10px 30px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/* info boxes */
+.fillbox {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 5% 15%;
+}
+
+.switchmake {
+    font-size: 14px;
+    text-decoration: underline; 
+}
+
+input {
+    background-color: #FFF9E3;
+    border: none;
+    margin: 20px 15px;
+    border: 3px solid #FFF9E3;
+    border-radius: 15px;
+    min-width: 85px;
+    max-width: 200px;
+    font-size: 16px;
+}
+
+.donebotton {
+    border-radius: 10px;
+    background-color: #FFF9E3;
+    padding: 10px;
+    width: 120px;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 1px 1.5px 2px rgba(0, 0, 0, 0.35);
+
+}
